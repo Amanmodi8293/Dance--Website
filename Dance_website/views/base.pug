@@ -1,0 +1,33 @@
+doctype html 
+html 
+   head 
+     title Aman dance academy 
+     block scripts 
+     block style
+body 
+  nav#navbar
+     ul 
+       div#logo
+           img(src="/static/logo1.png")
+           |HDA
+       li #[a(href="/") Home ]
+       li #[a(href="/") About ]
+       li #[a(href="/") Services ]
+       li #[a(href="/") Class Info]
+       li #[a(href="/contact") Contact]  
+block content
+footer#footer 
+     | Copyright © 2019 AmanDanceAcademy.com | All right reserved 
+     div#footer-img
+        div.media#facebook
+           a(href="https://www.facebook.com/robbin.modi.1?mibextid=ZbWKwL")
+             button#btn
+               img(src="/static/media1.png", alt="not founded") 
+        div.media#whatsapp
+           a(href="https://wa.me/917879129561?text=hello") 
+             button#btn 
+               img(src="/static/media2.jpg", alt="not founded") 
+        div.media#instagram
+           a(href="https://instagram.com/aman_modi__")
+             button#btn 
+               img(src="/static/media3.jpg", alt="not founded") 

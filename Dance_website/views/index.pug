@@ -1,0 +1,62 @@
+//-index.pug
+doctype html
+html      
+   head 
+     style
+       include ../static/style.css 
+body 
+nav#navbar
+     ul 
+       div#logo
+           img(src="/static/logo1.png")
+           |HDA
+       li #[a(href="/") Home ]
+       li #[a(href="/") About ]
+       li #[a(href="/") Services ]
+       li #[a(href="/") Class Info]
+       li #[a(href="/") Contact]  
+section#introSection 
+  div  Welcome to Aman's Dance Academy
+  div.small Eat Sleep Dance Reapeat
+
+section#ourmissionSection 
+   h2 Our mission
+   div.card
+      h3 Dance perfection
+      div.card-box 
+         div.card-img
+             img(src="/static/logo2.png", alt="mission Image" class="ourImage")
+         div.card-content 
+             p Lorem ipsum dolor sit ametelit. Maiores, voluptate!
+   div.card
+      h3 Dance the way you like
+      div.card-box 
+         div.card-img
+             img(src="/static/logo3.png", alt="mission Image" class="ourImage")
+         div.card-content 
+             p Lorem ipsum dolor sit ametelit. Maiores, voluptate!
+   div.card
+      h3 Expert Teaching
+      div.card-box 
+         div.card-img
+             img(src="/static/logo4.png", alt="mission Image" class="ourImage")
+         div.card-content 
+             p Lorem ipsum dolor sit ametelit. Maiores, voluptate!
+section#sponsorsSection 
+   h3 Our sponsors 
+   div#sponsor
+      img(src="/static/1.logo.png", alt="Sponsors Image" class="spImage")
+      img(src="/static/2.logo.png", alt="Sponsors Image" class="spImage")
+      img(src="/static/3.logo.png", alt="Sponsors Image" class="spImage")
+      img(src="/static/4.logo.png", alt="Sponsors Image" class="spImage")
+footer#footer 
+   | Copyright © 2019 AmanDanceAcademy.com | All right reserved
+   div#footer-img
+        div.media#facebook
+            a(href="https://www.facebook.com/robbin.modi.1?mibextid=ZbWKwL")
+        div.media#instagram
+            a(href="https://instagram.com/aman_modi__")
+        div.media#whatsapp
+            a(href="https://wa.me/917879129561?text=hello")
+script 
+include ../static/index.js 

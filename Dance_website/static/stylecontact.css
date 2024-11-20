@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-size: 15rem;
+    margin: 0px 0px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+#navbar{
+    background-color: #491e1e;
+}
+.Myform{
+    display:flex;
+    flex-direction: column;
+
+}
+.Myinput{
+    font-size: 5rem;
+    padding: 20px;
+    width: 60%;
+    margin: 25px auto;
+    text-align: center;
+    border: 12px solid #305e32;
+    outline: none;
+    border-radius: 30px;
+}
+body{
+    background-color: white;
+}
+.btn{
+    font-size: 4rem;
+    display: block;
+    margin: auto;
+    padding: 30px 100px;
+    background-color: black;
+    color: white;
+    border: 7px solid #bcb6b6;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.container{
+    background-color: #31464aba;
+    min-height: 100vh;
+}
